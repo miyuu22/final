@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    background-color: black;
+    background-image: url(../img/back.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+    position: relative;
+    top: 10px;
+    left: 26px;
+    width: 300px;
+    height: 140;
+    z-index: 2;
+}
+.header{
+    position: fixed;
+    display: flex;
+    width:100%;
+    background: linear-gradient( 
+		#000000e5, 
+		#00000000);
+}
+
+@font-face {
+    font-family: gkktt;
+    src: url("../font/851Gkktt_005.ttf") format("truetype");
+  }
+main{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    z-index: 1;
+}
+  
+  @keyframes blurAnime{
+    from {
+    filter: blur(20px);
+    transform: scale(1.02);
+    }
+  
+    to {
+    filter: blur(0);
+    transform: scale(1);
+    }
+}
+.test-in{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.p8{
+    color: white;
+    position: relative;
+    left: 350px;
+    text-align: center;
+    font-size: 60px;
+    font-family: gkktt;
+    padding-bottom: 30px;
+
+    animation-name:blurAnime;
+    animation-duration:1.5s;
+    animation-fill-mode:forwards;
+  }
+
+  .developer-a1{
+    color: white;
+    position: relative;
+    font-family: gkktt;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    top: 150px;
+    left: 300px;
+  }
+
+  .developer-a2{
+    color: white;
+    position: relative;
+    font-family: gkktt;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    top: 200px;
+    left: 300px;
+  }
+
+  .developer-a3{
+    color: white;
+    position: relative;
+    font-family: gkktt;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    top: 250px;
+    left: 300px;
+  }
+
+  .developer-a4{
+    color: white;
+    position: relative;
+    font-family: gkktt;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    top: 300px;
+    left: 300px;
+  }
+  .developer-a5{
+    color: white;
+    position: relative;
+    font-family: gkktt;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    top: 350px;
+    left: 300px;
+  }
+  .developer-a6{
+    color: white;
+    position: relative;
+    font-family: gkktt;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    top: 400px;
+    left: 300px;
+  }
+
+  .msg{
+    text-align: center;
+  }
+  .msg-flot{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: gkktt;
+  }
+
+  .p9{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: gkktt;
+    padding: 100px 495px 40px 495px;
+    z-index: 1;
+  }
+
+  hr{
+    width: 400px;
+  }
+
+  input{
+    font-size: 23px;
+    font-family: gkktt;
+    width: 160px;
+    height: 24px;
+  }
+
+  td{
+    color: white;
+  }
+  th{
+    color: white;
+  }
+
+  table{
+    width: 1000px;
+    border:1px solid #aaaaaa;
+  }
+  th{
+    border:1px solid #aaaaaa;
+  }
+  td{
+    border:1px solid #aaaaaa;
+  }
